@@ -1,0 +1,22 @@
+.image-drop-container {
+    width: 300px;
+    height: 300px;
+    border: 3px dashed gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .uploaded-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .drop-prompt {
+    text-align: center;
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
